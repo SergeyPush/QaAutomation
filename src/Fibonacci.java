@@ -1,11 +1,13 @@
-public class Fibonacci {
+class Fibonacci {
 
 
-    int a = 0;
-    int b = 1;
+    private int a = 0;
+    private int b = 1;
 
 
-    public void printFibonacciNumbers(int number) {
+    void printFibonacciNumbers(int number) {
+
+        System.out.println("Fibonacci numbers:");
 
         for (int c = 0; number > 0; number--) {
 
@@ -17,7 +19,7 @@ public class Fibonacci {
 
         }
 
-
+        System.out.println();
     }
 
 }
