@@ -1,3 +1,5 @@
+package Lesson2;
+
 class Fibonacci {
 
 
@@ -7,7 +9,7 @@ class Fibonacci {
 
     void printFibonacciNumbers(int number) {
 
-        System.out.println("Fibonacci numbers:");
+        System.out.println("Lesson2.Fibonacci numbers:");
 
         for (int c = 0; number > 0; number--) {
 
